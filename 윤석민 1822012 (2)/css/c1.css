@@ -1,0 +1,157 @@
+*{  
+    text-decoration: none;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+.header {
+    border-bottom: 1px solid rgb(192, 191, 191 , 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+}
+.header1 img {
+    margin-left: 15%;
+    margin-top: 9px;
+    width: 50px;
+    height: 50px;
+}
+.header p {
+    margin-right: 1%;
+    margin-top: 0.6%;
+    font-size: 30px;
+    color: black;
+}
+.menu {
+    width: 92%;
+}
+.menu > ul {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.menu > ul > li{
+    font: bold;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    font-size: 19px;
+    display: inline-block;
+}
+
+/*메뉴*/
+
+.down{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(228, 224, 224);
+    font-size: 16px;
+}
+.down ul{
+    height: 100%;
+    display: flex;
+    
+}
+.down li{
+    margin: 7px;
+    margin-top: auto;
+}
+/*아래*/
+
+
+.back {
+    background-color: white;
+    width: 100%;
+    height: 2500px;
+}
+.back > img {
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%, 80px);
+    border-radius: 15px;
+    width: 85%;
+    height: 750px;
+}
+.back h1{
+    position: relative;
+    text-align: center;
+    top: 550px;
+    font-size: 40px;
+}
+.bt1{
+    position:initial;
+    text-align: center;
+}
+.bt2{
+    position: relative;
+    top: 585px;
+    font-size: 15px;
+    background-color: rgb(238, 238, 238);
+    display:inline;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px rgb(75, 75, 75) , 0 4px 4px rgb(75, 75, 75);
+    border: none;
+}
+.back{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 920px;
+}
+
+
+.king{
+    margin: 4%;
+}
+.king p{
+    margin: 2%;
+    font-size: 18px;
+    font: bold;
+}
+.king h2{
+    margin-left: 9%;
+    font-size: 35px;
+}
+.pon ul{
+display: flex;
+justify-content: center;
+}
+.pon li{
+    margin: 1.7%;
+}
+.pon img{
+    margin-top: 14px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.pon3 ul{
+    display: flex;
+    justify-content: center;
+}
+.pon3 img{
+    height: 390px;
+    width: 390px;
+    border-radius: 15px;
+}
+.pon3 li{
+    margin: 2.5%;
+}
+.pon3 h3{
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.pon3 h2{
+    margin-top: 3%;
+}
